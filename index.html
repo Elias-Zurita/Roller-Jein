@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- META SOFI!! -->
+        <meta charset="utf-8">  <!-- Soporta caracteres especiales -->
+        <meta name="viewport"content="width=device-width"> <!-- Sitio responsive -->
+        <meta name="language" content="spanish"> <!-- Sitio web en español -->
+        <meta name="author" content="Elias Zurita"> <!-- Diseñado por... -->
+        <meta name="audience" content="all"> <!-- Google sabra que no tiene restricciones de audiencia -->
+        <meta name="distribution" content="global"> <!-- El sitio web no tiene restricciones geograficas para ser vista -->
+        <meta name="description" content="Mejorá tus hábitos hoy y mantén un estilo de vida saludable para siempre. VAMOS POR TU MEJOR VERSIÓN!! Sofia Sanz Fitness"> <!-- Descripcion que aparece en el buscador de google. NO debe superar los 150 caracteres -->
+        <meta name="keywords" content="entrenamiento, sanz, fitness"> <!-- Palabras claves que usan motores de busquedas menos google. No deben ser mas de 3 -->
+        <meta name="googlebot-image" content="all"> <!-- Indexa todas los imagenes del sitio a los motores de busqueda de google. Con la etiqueta alt en las imagenes funciona mejor -->
+        <meta name="robots" content="index, all, follow"> <!-- Indexa todos los contenidos a los motores de busqueda de google -->
+        <meta name="googlebot" content="all, index, follow"> <!-- Indexa todos los rastreadores de google -->
+        <meta name="yahoobot" content="all, index, follow"> <!-- Indexa todos los rastreadores de yahoo -->
+        <meta name="mozilla2.0" content="index, follow"> <!-- Indexa todos los rastreadores de mozilla -->
+        <meta name="msnbot" content="all, index, follow"> <!-- Indexa todos los rastreadores de Microsoft -->
+        <meta name="category" content="fitness"> <!-- Categoria a la que pertenece la pagina -->
+        <meta itemprop="telephone" content="+376663918"> <!-- Al buscar el telefono en google aparecera para que desde un smartphone llame -->
+        <meta property="og:title" content="Sofia Sanz Fitness - Entrenamientos Personalizados"> <!-- Como aparecera cuando se comparta el sitio web en facebook -->
+        <meta property="og:description" content="Mejorá tus hábitos hoy y mantén un estilo de vida saludable para siempre. VAMOS POR TU MEJOR VERSIÓN!!"> <!-- La descripcion que aparecera cuando se comparta el sitio en facebook -->
+        <meta property="og:image" content="https://sofiasanzfitness.com/images/banners/IMG_0451%20-%20copia.JPG"> <!-- La imagen que va a aparecer en facebook al compartir el sitio web -->
+        <meta property="og:url" content="https://sofiasanzfitness.com/"> <!-- URL que se usara como enlace cuando se comparta el sitio web -->
+        <meta name="twitter:title" content="Sofia Sanz Fitness - Entrenamientos Personalizados"> <!-- Titulo cuando se comparta el sitio web en Twitter -->
+        <meta name="twitter:description" content="Mejorá tus hábitos hoy y mantén un estilo de vida saludable para siempre. VAMOS POR TU MEJOR VERSIÓN!!"> <!-- La descripcion que aparecera cuando se comparta el sitio en Twitter -->
+        <meta name="twitter:image" content="https://sofiasanzfitness.com/images/banners/IMG_0451%20-%20copia.JPG"> <!-- La imagen que va a aparecer en Twitter al compartir el sitio web -->
+        <meta name="twitter:card" content="summary_large_image"> <!-- La imagen que va a aparecer en Twitter va a ser grande -->
+        
+        <!-- Pestaña -->
+        <title>Roller Jein</title>
+        <link rel="shortcut icon" href="/images/logo transparente.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        
+        <!-- Vinculacion con Bootstrap  y w3schools -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <script src="https://kit.fontawesome.com/d4ee5988c7.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        
+    </head>
+    
+    <header>
+        <!-- Boton de whats app -->
+        <a href="https://wa.me/+376663918?text=" target="_blank" class="btn-wsp"><i class="fa-brands fa-whatsapp"></i></a>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-black fixed-top"> <!-- EL bg-light lo hace todo blanco al menu -->
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="img/Roller logo.jpg"></a>
+                <div class="seccionesHeader">
+                    <p><a href="/index.html" class="nav-link subrayado">INICIO</a></p>
+                    <p><a href="/sobreMi.html" class="nav-link subrayado">NOSOTROS</a></p>
+                    <p><a href="/planes.html" class="nav-link subrayado">PRODUCTOS</a></p>
+                    <p><a href="/ebooks.html" class="nav-link subrayado">SHOWROOM</a></p>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- Burger Button WH3S -->
+                    <div class="container" onclick="myFunction(this)">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </button>
+
+                <!-- MENU DESPLEGLABLE RESPONSIVE -->
+                <!-- class="offcanvas offcanvas-end LO HACE LATERAL. SI FUERA collapse navbar-collapse es desde arriba hacia abajo -->
+                <div class="offcanvas offcanvas-end headerResponsive" aria-labelledby="offcanvasNavbarLabel" id="navbarTogglerDemo02"> 
+                    <ul class="navbar-nav flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="/index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/sobreMi.html">NOSOTROS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/planes.html">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/ebooks.html">SHOWROOM</a>
+                        </li>
+                        <li class="nav-item dropdownResponsive">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            SHOWROOM
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="https://www.tiktok.com/@sofiasanz50?_t=8f6kScQs1WH&_r=1"><i class="fa-brands fa-tiktok" style="color: white; text-shadow: black 2px 2px 2px;"></i> Tiktok</a></li>
+                                <li><a class="dropdown-item" href="https://instagram.com/sofiasanz_ok?igshid=MzRlODBiNWFlZA=="><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                                <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCWZCE-TJMQ1RAJP-spmjQFA"><i class="fa-brands fa-youtube"></i> Youtube</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://wa.me/+376663918?text=" target="_blank"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:sofiasanzplanes4@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i> E-mail</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="developerHeader">
+                        Diseño página Web - by <a href="https://elias-zurita.github.io/" target="_blank">Elias Zurita</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+            }
+        </script>
+    </header>
+    
+    <body>
+        <div class="bannerHome">
+            <img src="img/banner home.png" alt="">
+            <button>Solicitá tu presupuesto</button>
+        </div>
+
+        <div class="textoHome">
+            <div>En Roller Jein, somos fabricantes y expertos en la venta e instalación de cortinas rollers y convencionales.</div>
+            <div>Nuestro compromiso es ofrecer productos de alta calidad que se adapten a tu estilo y necesidades.</div>
+            <div>Con un enfoque personalizado, Nicolás y Julieta se dedican a brindarte un servicio excepcional, asegurando que tu espacio sea único y acogedor.</div>
+            <div>Descubre la elegancia y funcionalidad de nuestras cortinas y transforma tu hogar con nosotros.</div>
+        </div>
+
+        <div class="seccionCotiza">
+            <div class="columnaCotiza">
+                <div class="cotizaTitulo">Cotizá</div>
+                <div class="cotizaTexto">en 3 simples pasos</div>
+            </div>
+            <div class="columnaCotiza">
+                <div class="paso">
+                    <div class="numeroPaso">1</div>
+                    <div class="textoPaso">Introducí tus medidas</div>
+                </div>
+                <div class="paso">
+                    <div class="numeroPaso">2</div>
+                    <div class="textoPaso">Calculamos tu presupuesto</div>
+                </div>
+                <div class="paso">
+                    <div class="numeroPaso">3</div>
+                    <div class="textoPaso">Te lo enviamos por WhatsApp</div>
+                </div>
+            </div>
+            <div class="columnaCotiza">
+                <form action="" method="post" onsubmit="">
+                    <div class="filaFormulario">
+                        <div class="columnaFormulario">
+                            <label>Ancho (cm)</label>
+                            <input type="text" placeholder="Min 50 cm*" name="ancho" minlength="2" required>
+                        </div>
+                        <div class="columnaFormulario">
+                            <label>Alto (cm)</label>
+                            <input type="text" placeholder="Min 50 cm" name="alto" minlength="2" required>
+                        </div>
+                    </div>
+                    <div class="filaFormulario">
+                        <div class="columnaFormulario">
+                            <label>Nombre</label>
+                            <input type="text" placeholder="" name="nombre" minlength="2" required>
+                        </div>
+                        <div class="columnaFormulario">
+                            <label>Teléfono</label>
+                            <input type="number" placeholder="" name="telefono" minlength="2" required>
+                        </div>
+                    </div>
+                    <div class="filaFormulario">
+                        <div class="columnaSelectFormulario">
+                            <label>Tipo de tela</label>
+                            <select name="" id="">
+                                <option value="Blackout">Roller Blackout</option>
+                                <option value="Sunscreen">Roller Sunscreen 5%</option>
+                                <option value="Dual">Roller Dual: Blackout + Sunscreen 5%</option>
+                                <option value="Verticales">Bandas verticales</option>
+                                <option value="South beach">Roller South beach</option>
+                                <option value="Gasas con sistemas de riel/barral">Gasas con sistemas de riel/barral</option>
+                                <option value="Gasa + Roller Blackout">Gasa + Roller Blackout</option>
+                                <option value="Cortinas convencionales">Cortinas convencionales</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="filaFormulario">
+                        <div class="columnaFormulario" style="width: 100%;">
+                            <label>Email</label>
+                            <input type="email" placeholder="Email" name="email" minlength="2" required>
+                        </div>
+                    </div>
+                    <button type="submit" style="width: 99%;">Cotizar <i class="fa-solid fa-paper-plane"></i>
+                        <span class="relleno"></span>
+                    </button> 
+                </form>
+            </div>
+        </div>
+
+        <div class="seccionProductosHome">
+            <div class="productoHomePadre">
+                <div class="productoHome">
+                    <img src="img/Roller blackout.png" alt="">
+                    <p>Roller Blackout</p>
+                </div>
+                <div class="productoHome">
+                    <img src="img/Roller sunscren.png" alt="">
+                    <p>Roller Sunscreen 5%</p>
+                </div>
+                <div class="productoHome">
+                    <img src="img/Roller dual.png" alt="">
+                    <p>Roller Dual</p>
+                </div>
+                <div class="productoHome">
+                    <img src="img/Bandas verticales.png" alt="">
+                    <p>Bandas verticales</p>
+                </div>
+                <div class="productoHome">
+                    <img src="img/Roller south beach.png" alt="">
+                    <p>Roller South beach</p>
+                </div>
+                <div class="productoHome">
+                    <img src="img/Gasas sistema de riel.png" alt="">
+                    <p>Gasas con sistemas de riel/barral</p>
+                </div>
+                <div class="productoHome">
+                    <img src="img/Gasas con roller blackout.png" alt="">
+                    <p>Gasa + Roller Blackout</p>
+                </div>
+                <div class="productoHome">
+                    <img src="img/Cortinas convencionales.png" alt="">
+                    <p>Cortinas convencionales</p>
+                </div>
+            </div>
+        </div>
+
+
+    </body>
+    
+    <footer>
+                <div class="padreColumnasFooter">
+            <div class="columnaFooter">
+                <img src="img/logo transparente.png" style="width:180px;">
+                <div class="d-flex justify-content-start mt-4">
+                    <a class="redesFooter" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="redesFooter" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="redesFooter" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="redesFooter" href=""><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="columnaFooter" style="margin-right: 20px;">
+                <p class="tituloFooter">CONTACTO</p>
+                <p>Lunes a Sabados de 07:00 a 20:00 hs</a></p>
+                <p><i class="fa fa-map-marker-alt"></i> DIRECCION, Bs.As.</p>
+                <p><i class="fa fa-phone-alt"></i> +54 11 5758-5501</p>
+                <p><i class="fa fa-envelope"></i> roller.jein@gmail.com</p>
+            </div>
+
+            <div class="columnaFooter">
+                <p class="tituloFooter">SECCIONES</p>
+                <p><a href="index.html"><i class="fa fa-angle-right mr-2"></i> Inicio</a></p>
+                <p><a href="web/nosotros.html"><i class="fa fa-angle-right mr-2"></i> Nosotros</a></p>
+                <p><a href="web/productos.html"><i class="fa fa-angle-right mr-2"></i> Productos</a></p>
+                <p><a href="web/ubicacion.html"><i class="fa fa-angle-right mr-2"></i> Showroom</a></p>
+            </div>
+
+            <div class="columnaFooter" style="padding-top: 8px">
+                <!-- Back to Top -->
+                <a href="#" class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+            </div>
+        </div>
+
+        <div class="cajaDesarrollador">
+            <div>© <span style="color: var(--color-terciario)">Roller Jein</span><span style="color: var(--color-secundario)"></span>. Todos los derechos reservados. Diseñado por <a href="https://elias-zurita.github.io/" target="_blank"><strong>Elias Zurita</strong></a></div>
+        </div>
+    </footer>
+</html>
