@@ -168,7 +168,8 @@ h1{
   justify-content: center;
 }
 .productoHome{
-  border: 1px solid blue;
+  border: 1px solid rgb(207, 207, 207);
+  border-radius: 5px;
   display: flex;
   flex-direction: column;
   margin: 30px;
@@ -176,6 +177,10 @@ h1{
   transition: .3s ease-in-out;
   cursor: pointer; /* mouse en modo hipervinculo */
   overflow: hidden; /* la imagen no se sale de su caja al expandirse con el hover */
+  width: 350px;
+}
+.productoHome:hover{
+  box-shadow: 2px -1px 19px 7px rgba(194,184,194,0.86);
 }
 .productoHome p{
   font-size:17px;
@@ -183,14 +188,21 @@ h1{
   font-weight: 600;
 }
 .productoHome img{
-  border: black solid 2px;
   width: 350px;
   object-fit: cover;
   height: 350px;
   transition: .3s ease-in-out;
   overflow: hidden; /* la imagen no se sale de su caja al expandirse con el hover */
 }
-.productoHome:hover .{
-  transform: scale(2.07); 
+.productoHome:hover .imagenAumentada{
+  transform: scale(1.2); 
   cursor: pointer; /* mouse en modo hipervinculo */
+}
+.imagenAumentada{
+  transition: 0.3s ease-in-out;
+}
+.cajaImagen{
+  overflow: hidden;
+  width: 350px;
+  height: 350px;
 }
