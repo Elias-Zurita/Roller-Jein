@@ -1,3 +1,12 @@
+.presentacionProductos{
+  margin-top: 85px;
+  border: red solid 3px;
+  width: 80%;
+  margin: 20px auto 10px auto;
+  font-family: "Poppins";
+  font-size: 18px;
+  background-color: gray;
+}
 .tituloModelo{
   text-align: center;
   font-weight: bold;
@@ -58,6 +67,10 @@
   margin: 45px auto 30px auto;
   background-color: #212529;
 }
+.seccionServicios{
+  background-color: gray;
+  padding:10px 0 50px 0
+}
 .tituloServicios{
     text-align: center;
     font-weight: bold;
@@ -81,7 +94,6 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 50px;
 }
 .cajaServicio{
     background-color: var(--color-primario);
