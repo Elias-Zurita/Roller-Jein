@@ -56,7 +56,7 @@ h1{
   padding: 50px;
   font-size: 18px;
   color: white;
-  background-color: #a5a5a5
+  background-color: #212529;
 }
 
 .seccionCotiza{
@@ -93,8 +93,8 @@ h1{
 .numeroPaso{
   border-radius: 100%;
   padding: 10px;
-  border: black solid 1px;
-  color: var(--color-primario);
+  border: black solid 3px;
+  color: orangered;
   font-size: 25px;
   width: 45px;
   height: 45px;

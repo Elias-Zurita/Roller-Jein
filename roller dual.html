@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- META SOFI!! -->
+            <!-- META SOFI!! -->
         <meta charset="utf-8">  <!-- Soporta caracteres especiales -->
         <meta name="viewport"content="width=device-width"> <!-- Sitio responsive -->
         <meta name="language" content="spanish"> <!-- Sitio web en español -->
@@ -45,7 +45,13 @@
         <link rel="stylesheet" href="styles/index.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/producto.css">
         
+        <link type="text/css" rel="stylesheet" href="css/lightgallery.css"> <!-- Galeria de fotos -->
+        <link href="styles/lightgallery.css" rel="stylesheet">
+
+        <title>Document</title>
+
     </head>
     
     <header>
@@ -119,140 +125,86 @@
     </header>
     
     <body>
-        <div class="bannerHome">
-            <img src="img/banner home.png" alt="">
-            <button>Solicitá tu presupuesto</button>
+    
+        <div class="tituloModelo">ROLLER DUAL</div>
+
+        <div class="detalleProducto">
+            Las cortinas Roller Dual son la respuesta definitiva a tus necesidades de flexibilidad y estilo. Este innovador sistema combina dos tipos de tejido en un solo diseño, permitiéndote alternar fácilmente entre la luz y la oscuridad. Imagina disfrutar del cálido sol durante el día y, con un simple gesto, transformar tu espacio en un refugio acogedor por la noche. Son ideales para cualquier ambiente, desde dormitorios hasta salas de estar, ofreciendo un control total sobre la luz y la privacidad. Además, su diseño moderno y elegante se adapta a la perfección a tu decoración, convirtiéndose en una pieza central que cautivará la atención de tus invitados y hará que cada día en tu hogar se sienta especial.
         </div>
 
-        <div class="textoHome">
-            <div>En Roller Jein, somos fabricantes y expertos en la venta e instalación de cortinas rollers y convencionales.</div>
-            <div>Nuestro compromiso es ofrecer productos de alta calidad que se adapten a tu estilo y necesidades.</div>
-            <div>Con un enfoque personalizado, Nicolás y Julieta se dedican a brindarte un servicio excepcional, asegurando que tu espacio sea único y acogedor.</div>
-            <div>Descubre la elegancia y funcionalidad de nuestras cortinas y transforma tu hogar con nosotros.</div>
+        <div id="lightgallery" class="cajaImagenesModelos">
+            <a href="img/Roller dual.png">
+                <img src="img/Roller dual.png"/>
+            </a>
+            <a href="img/Bandas verticales.png">
+                <img src="img/Bandas verticales.png"/>
+            </a>
+            <a href="img/banner home.png">
+                <img src="img/banner home.png"/>
+            </a>
+            <a href="img/Cortinas convencionales.png">
+                <img src="img/Cortinas convencionales.png"/>
+            </a>
+            <a href="img/Gasas con roller blackout.png">
+                <img src="img/Gasas con roller blackout.png"/>
+            </a>
+            <a href="img/Gasas sistema de riel.png">
+                <img src="img/Gasas sistema de riel.png"/>
+            </a>
+            <a href="img/Roller south beach.png">
+                <img src="img/Roller south beach.png"/>
+            </a>
+            <a href="img/Roller sunscren.png">
+                <img src="img/Roller sunscren.png"/>
+            </a>
+            <a href="img/Cortinas convencionales.png">
+                <img src="img/Cortinas convencionales.png"/>
+            </a>
         </div>
 
-        <div class="seccionCotiza">
-            <div class="columnaCotiza">
-                <div class="cotizaTitulo">Cotizá</div>
-                <div class="cotizaTexto">en 3 simples pasos</div>
-            </div>
-            <div class="columnaCotiza">
-                <div class="paso">
-                    <div class="numeroPaso">1</div>
-                    <div class="textoPaso">Introducí tus medidas</div>
+        <div class="tituloServicios">NUESTROS SERVICIOS</div>
+        <div class="tituloOfrecemos">QUÉ OFRECEMOS</div>
+
+        <div class="cajaPadreOfrecemos">
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-percentage"></i>
                 </div>
-                <div class="paso">
-                    <div class="numeroPaso">2</div>
-                    <div class="textoPaso">Calculamos tu presupuesto</div>
-                </div>
-                <div class="paso">
-                    <div class="numeroPaso">3</div>
-                    <div class="textoPaso">Te lo enviamos por WhatsApp</div>
+                <div class="textoServicio">
+                    Asesoramiento sin cargo
                 </div>
             </div>
-            <div class="columnaCotiza">
-                <form action="" method="post" onsubmit="">
-                    <div class="filaFormulario">
-                        <div class="columnaFormulario">
-                            <label>Ancho (cm)</label>
-                            <input type="text" placeholder="Min 50 cm*" name="ancho" minlength="2" required>
-                        </div>
-                        <div class="columnaFormulario">
-                            <label>Alto (cm)</label>
-                            <input type="text" placeholder="Min 50 cm" name="alto" minlength="2" required>
-                        </div>
-                    </div>
-                    <div class="filaFormulario">
-                        <div class="columnaFormulario">
-                            <label>Nombre</label>
-                            <input type="text" placeholder="" name="nombre" minlength="2" required>
-                        </div>
-                        <div class="columnaFormulario">
-                            <label>Teléfono</label>
-                            <input type="text" placeholder="" name="telefono" minlength="2" required>
-                        </div>
-                    </div>
-                    <div class="filaFormulario">
-                        <div class="columnaSelectFormulario">
-                            <label>Tipo de tela</label>
-                            <select name="" id="">
-                                <option value="Blackout">Roller Blackout</option>
-                                <option value="Sunscreen">Roller Sunscreen 5%</option>
-                                <option value="Dual">Roller Dual: Blackout + Sunscreen 5%</option>
-                                <option value="Verticales">Bandas verticales</option>
-                                <option value="South beach">Roller South beach</option>
-                                <option value="Gasas con sistemas de riel/barral">Gasas con sistemas de riel/barral</option>
-                                <option value="Gasa + Roller Blackout">Gasa + Roller Blackout</option>
-                                <option value="Cortinas convencionales">Cortinas convencionales</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="filaFormulario">
-                        <div class="columnaFormulario" style="width: 100%;">
-                            <label>Email</label>
-                            <input type="email" placeholder="Email" name="email" minlength="2" required>
-                        </div>
-                    </div>
-                    <button type="submit" style="width: 99%;">Cotizar <i class="fa-solid fa-paper-plane"></i>
-                        <span class="relleno"></span>
-                    </button> 
-                </form>
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-hand-holding-usd"></i>
+                </div>
+                <div class="textoServicio">
+                    Cotización al instante
+                </div>
+            </div>
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-key"></i>
+                </div>
+                <div class="textoServicio">
+                    Directo de fabrica
+                </div>
+            </div>
+            <div class="cajaServicio">
+                <div class="iconoServicio">
+                    <i class="fas fa-hands-helping"></i>
+                </div>
+                <div class="textoServicio">
+                    Entrega: 10 días
+                </div>
             </div>
         </div>
 
-        <div class="seccionProductosHome">
-            <div class="productoHomePadre">
-                <a href="roller blackout.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Roller blackout.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Roller Blackout</p>
-                </div></a>
-                <a href="roller sunscren.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Roller sunscren.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Roller Sunscreen 5%</p>
-                </div></a>
-                <a href="roller dual.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Roller dual.png" alt="" class="imagenAumentada">
-                    </div>
-                    <p>Roller Dual</p>
-                </div></a>
-                <a href="bandas verticales.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Bandas verticales.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Bandas verticales</p>
-                </div></a>
-                <a href="roller south beach.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Roller south beach.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Roller South beach</p>
-                </div></a>
-                <a href="gasas riel.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Gasas sistema de riel.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Gasas con sistemas de riel/barral</p>
-                </div></a>
-                <a href="gasas blackout.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Gasas con roller blackout.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Gasa + Roller Blackout</p>
-                </div></a>
-                <a href="cortinas convencionales.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Cortinas convencionales.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Cortinas convencionales</p>
-                </div></a>
-            </div>
-        </div>
-
+        <!-- lightgallery plugins -->
+        <script src="js/lightgallery.min.js"></script>
+        <script type="text/javascript">
+            lightGallery(document.getElementById('lightgallery')); 
+        </script>
 
     </body>
     
@@ -294,4 +246,5 @@
             <div>© <span style="color: var(--color-terciario)">Roller Jein</span><span style="color: var(--color-secundario)"></span>. Todos los derechos reservados. Diseñado por <a href="https://elias-zurita.github.io/" target="_blank"><strong>Elias Zurita</strong></a></div>
         </div>
     </footer>
+    
 </html>
