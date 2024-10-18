@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- META SOFI!! -->
+            <!-- META SOFI!! -->
         <meta charset="utf-8">  <!-- Soporta caracteres especiales -->
         <meta name="viewport"content="width=device-width"> <!-- Sitio responsive -->
         <meta name="language" content="spanish"> <!-- Sitio web en español -->
@@ -47,6 +47,11 @@
         <link rel="stylesheet" href="styles/footer.css">
         <link rel="stylesheet" href="styles/producto.css">
         
+        <link type="text/css" rel="stylesheet" href="css/lightgallery.css"> <!-- Galeria de fotos -->
+        <link href="styles/lightgallery.css" rel="stylesheet">
+
+        <title>Document</title>
+
     </head>
     
     <header>
@@ -58,9 +63,9 @@
                 <a class="navbar-brand" href="/"><img src="img/Roller logo.jpg"></a>
                 <div class="seccionesHeader">
                     <p><a href="/index.html" class="nav-link subrayado">INICIO</a></p>
-                    <p><a href="/nosotros.html" class="nav-link subrayado">NOSOTROS</a></p>
-                    <p><a href="/productos.html" class="nav-link subrayado">PRODUCTOS</a></p>
-                    <p><a href="/showroom.html" class="nav-link subrayado">SHOWROOM</a></p>
+                    <p><a href="/sobreMi.html" class="nav-link subrayado">NOSOTROS</a></p>
+                    <p><a href="/planes.html" class="nav-link subrayado">PRODUCTOS</a></p>
+                    <p><a href="/ebooks.html" class="nav-link subrayado">SHOWROOM</a></p>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <!-- Burger Button WH3S -->
@@ -79,13 +84,13 @@
                             <a class="nav-link" aria-current="page" href="/index.html">INICIO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/nosotros.html">NOSOTROS</a>
+                            <a class="nav-link" href="/sobreMi.html">NOSOTROS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/productos.html">PRODUCTOS</a>
+                            <a class="nav-link" href="/planes.html">PRODUCTOS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/showroom.html">SHOWROOM</a>
+                            <a class="nav-link" href="/ebooks.html">SHOWROOM</a>
                         </li>
                         <li class="nav-item dropdownResponsive">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -120,145 +125,38 @@
     </header>
     
     <body>
-        <div class="bannerHome">
-            <img src="img/banner home.png" alt="">
-            <button>Solicitá tu presupuesto</button>
+    
+        <div class="tituloModelo">CORTINAS CONVENCIONALES CON TELA BLACKOUT</div>
+
+        <div class="detalleProducto">
+            Las cortinas convencionales con tela blackout son una opción ideal para quienes buscan elegancia y funcionalidad en sus espacios. Estas cortinas no solo ofrecen un toque sofisticado, sino que también garantizan un control total de la luz y la privacidad. Disponibles en diversos colores y texturas, se adaptan a cualquier estilo decorativo, desde lo minimalista hasta lo más audaz. Su capacidad para bloquear la luz exterior crea un ambiente sereno y acogedor, perfecto para descansar o disfrutar de momentos en familia. Convierte tu hogar en un refugio cálido y cómodo con las cortinas blackout, que combinan estilo y practicidad en cada habitación.
         </div>
 
-        <div class="textoHome">
-            <div>En Roller Jein, somos fabricantes y expertos en la venta e instalación de cortinas rollers y convencionales.</div>
-            <div>Nuestro compromiso es ofrecer productos de alta calidad que se adapten a tu estilo y necesidades.</div>
-            <div>Con un enfoque personalizado, Nicolás y Julieta se dedican a brindarte un servicio excepcional, asegurando que tu espacio sea único y acogedor.</div>
-            <div>Descubre la elegancia y funcionalidad de nuestras cortinas y transforma tu hogar con nosotros.</div>
-        </div>
-
-        <div class="seccionCotiza">
-            <div class="columnaCotiza">
-                <div class="cotizaTitulo">Cotizá</div>
-                <div class="cotizaTexto">en 3 simples pasos</div>
-            </div>
-            <div class="columnaCotiza">
-                <div class="paso">
-                    <div class="numeroPaso">1</div>
-                    <div class="textoPaso">Introducí tus medidas</div>
-                </div>
-                <div class="paso">
-                    <div class="numeroPaso">2</div>
-                    <div class="textoPaso">Calculamos tu presupuesto</div>
-                </div>
-                <div class="paso">
-                    <div class="numeroPaso">3</div>
-                    <div class="textoPaso">Te lo enviamos por WhatsApp</div>
-                </div>
-            </div>
-            <div class="columnaCotiza">
-                <form action="" method="post" onsubmit="">
-                    <div class="filaFormulario">
-                        <div class="columnaFormulario">
-                            <label>Ancho (cm)</label>
-                            <input type="text" placeholder="Min 50 cm*" name="ancho" minlength="2" required>
-                        </div>
-                        <div class="columnaFormulario">
-                            <label>Alto (cm)</label>
-                            <input type="text" placeholder="Min 50 cm" name="alto" minlength="2" required>
-                        </div>
-                    </div>
-                    <div class="filaFormulario">
-                        <div class="columnaFormulario">
-                            <label>Nombre</label>
-                            <input type="text" placeholder="" name="nombre" minlength="2" required>
-                        </div>
-                        <div class="columnaFormulario">
-                            <label>Teléfono</label>
-                            <input type="text" placeholder="" name="telefono" minlength="2" required>
-                        </div>
-                    </div>
-                    <div class="filaFormulario">
-                        <div class="columnaSelectFormulario">
-                            <label>Tipo de tela</label>
-                            <select name="" id="">
-                                <option value="Blackout">Roller Blackout</option>
-                                <option value="Sunscreen">Roller Sunscreen 5%</option>
-                                <option value="Dual">Roller Dual: Blackout + Sunscreen 5%</option>
-                                <option value="Verticales">Bandas verticales</option>
-                                <option value="South beach">Roller South beach</option>
-                                <option value="Gasas con sistemas de riel/barral">Gasas con sistemas de riel/barral</option>
-                                <option value="Gasa + Roller Blackout">Gasa + Roller Blackout</option>
-                                <option value="Cortinas convencionales">Cortinas convencionales</option>
-                                <option value="Cortinas convencionalesblackout">Cortinas convencionales tela Blackout</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="filaFormulario">
-                        <div class="columnaFormulario" style="width: 100%;">
-                            <label>Email</label>
-                            <input type="email" placeholder="Email" name="email" minlength="2" required>
-                        </div>
-                    </div>
-                    <button type="submit" style="width: 99%;">Cotizar <i class="fa-solid fa-paper-plane"></i>
-                        <span class="relleno"></span>
-                    </button> 
-                </form>
-            </div>
-        </div>
-
-        <div class="seccionProductosHome">
-            <div class="productoHomePadre">
-                <a href="roller blackout.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Roller blackout.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Roller Blackout</p>
-                </div></a>
-                <a href="roller sunscren.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Roller sunscren.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Roller Sunscreen 5%</p>
-                </div></a>
-                <a href="roller dual.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Roller dual.png" alt="" class="imagenAumentada">
-                    </div>
-                    <p>Roller Dual</p>
-                </div></a>
-                <a href="bandas verticales.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Bandas verticales.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Bandas verticales</p>
-                </div></a>
-                <a href="roller south beach.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Roller south beach.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Roller South beach</p>
-                </div></a>
-                <a href="gasas riel.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Gasas sistema de riel.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Gasas con sistemas de riel/barral</p>
-                </div></a>
-                <a href="gasas blackout.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Gasas con roller blackout.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Gasa + Roller Blackout</p>
-                </div></a>
-                <a href="cortinas convencionales.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/Cortinas convencionales.png" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Cortinas convencionales</p>
-                </div></a>
-                <a href="cortinas convencionales blackout.html"><div class="productoHome">
-                    <div class="cajaImagen">
-                        <img src="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.53.08.jpeg" alt="" class="imagenAumentada">>
-                    </div>
-                    <p>Cortinas convencionales tela Blackout</p>
-                </div></a>
-            </div>
+        <div id="lightgallery" class="cajaImagenesModelos">
+            <a href="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.53.08.jpeg">
+                <img src="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.53.08.jpeg">
+            </a>
+            <a href="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.54.21.jpeg">
+                <img src="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.54.21.jpeg"/>
+            </a>
+            <a href="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.54.22 (1).jpeg">
+                <img src="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.54.22 (1).jpeg">
+            </a>
+            <a href="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.54.22 (2).jpeg">
+                <img src="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.54.22 (2).jpeg"/>
+            </a>
+            <a href="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.54.22.jpeg">
+                <img src="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.54.22.jpeg">
+            </a>
+            <a href="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.54.31.jpeg">
+                <img src="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.54.31.jpeg"/>
+            </a>
+            <a href="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.57.54 (1).jpeg">
+                <img src="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.57.54 (1).jpeg"/>
+            </a>
+            <a href="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.57.54.jpeg">
+                <img src="img/convencionales tela blackout/WhatsApp Image 2024-10-18 at 08.57.54.jpeg"/>
+            </a>
         </div>
 
         <div class="seccionServicios">
@@ -300,6 +198,12 @@
                 </div>
             </div>
         </div>
+        
+        <!-- lightgallery plugins -->
+        <script src="js/lightgallery.min.js"></script>
+        <script type="text/javascript">
+            lightGallery(document.getElementById('lightgallery')); 
+        </script>
 
     </body>
     
@@ -341,4 +245,5 @@
             <div>© <span style="color: var(--color-terciario)">Roller Jein</span><span style="color: var(--color-secundario)"></span>. Todos los derechos reservados. Diseñado por <a href="https://elias-zurita.github.io/" target="_blank"><strong>Elias Zurita</strong></a></div>
         </div>
     </footer>
+    
 </html>
