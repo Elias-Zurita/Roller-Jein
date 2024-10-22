@@ -15,7 +15,7 @@ a{
     text-decoration: none;
 }
 :root{
-    --color-primario: rgb(57, 174, 86)
+    --color-primario: #005dff99
     
     /*
     verde:  rgb(57, 174, 86)/*
@@ -244,5 +244,8 @@ h1{
   }
   .columnaFormulario{
     width: 100%;
+  }
+  .pasosCotiza{
+    align-items: flex-start;
   }
 }

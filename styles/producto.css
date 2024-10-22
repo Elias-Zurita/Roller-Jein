@@ -129,7 +129,7 @@
     font-weight: bold;
 }
 .cajaServicio:hover{
-    background: gray;
+    background: #212529;
     box-shadow: 0 0 30px #CCCCCC;
     transform: translateY(-10px); 
 }

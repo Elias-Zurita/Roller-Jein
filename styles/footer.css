@@ -31,9 +31,11 @@
 .redesFooter:hover{
     background-color: var(--color-primario);
 }
+.redesFooter i{
+    font-weight: bold;
+}
 .redesFooter:hover i{
     color: black;
-    font-weight: bold;
 }
 .btn {
     display: inline-block;

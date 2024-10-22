@@ -67,35 +67,28 @@
 .team-item:hover .team-img img {
     transform: scale(1.2);
 }
-.cajaEmpleados{
-    width: 80%;
-    margin: 5% auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-}
-.empleado{
-    width: 250px;
-    margin: 10px;
-}
-.empleado img{
-    max-height: 270px;
-}
 .cajaPresentacionSG{
-    width: 100%;
-    margin: 0 auto 3% 0;
+    width: 1200px;
+    margin: 80px auto 80px auto;
     display: flex;
-    background-color: black;
+    color: #4A4A4A;
+    justify-content: space-between;
 }
 .cajaLogoPresentacion{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 505px;
+}
+.cajaLogoPresentacion img{
+    width: 100%;
+    height: 400px;
 }
 .textoPresentacion{
-    color: white;
+    color: black;
     padding: 3% 2% 1% 2%;
+    width: 650px;
+    text-align: justify;
 }
 .tituloVirtudes{
     font-size: 40px;
@@ -121,7 +114,7 @@
     transform: scale(1.03);
 }
 .virtud:hover .cajaIconoVirtur{
-    background-color: #9b1c43;
+    background-color: var(--color-primario);
     color: white;
 }
 .cajaIconoVirtur{
@@ -129,7 +122,7 @@
     height: 100px;
     margin: 10px auto;
     transition: .3s ease-in-out;
-    border: #9b1c43 solid 3px;
+    border: var(--color-primario) solid 3px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,6 +135,95 @@
     text-transform: uppercase;
 }
 
+.cajaPadreExperiencia{
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    font-family: "Poppins", sans-serif;
+}
+.cajaTrofeo{
+    background:black;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 600px
+}
+.cajaTrofeo i{
+    font-size:180px
+}
+.numeroAños{
+    font-size: 80px;
+    font-weight: bold;
+}
+.textoAños{
+    font-size: 40px;
+    font-weight: bold;
+}
+.cajaSomosDistintos{
+    width: 600px;
+    margin-right: 50px;
+}
+.subtituloDistintos{
+    font-weight: bold;
+}
+.tituloDistintos{
+    font-size: 35px;
+    font-weight: bold;
+}
+.textoDistintos{
+    margin: 10px 0 20px 0;
+}
+.contador{
+    font-size: 30px;
+    font-weight: bold;
+    color:var(--color-primario)
+}
+.tituloContador{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+@media(max-width: 1300px){
+    .cajaPresentacionSG{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cajaLogoPresentacion{
+        width: 100%;
+    }
+    .cajaLogoPresentacion img{
+        width: 100%;
+        object-fit: cover; /* se come la caja la imagen pero no la deforma */
+    }
+    .textoPresentacion{
+        margin-top: 30px;
+        width: 100%;
+    }
+}
+@media(max-width:1100px){
+    .cajaPadreServicios{
+        width:90%
+    }
+    .cajaPadreExperiencia{
+        flex-direction: column;
+    }
+    .cajaSomosDistintos{
+        width: 90%;
+        margin: 0 auto 30px auto;
+    }
+    .cajaTrofeo{
+        width: 90%;
+    }
+}
+
 @media (max-width:1000px){ 
     .cajaPresentacionSG{
         flex-direction: column;
@@ -150,7 +232,79 @@
         padding-right: 0%;
         text-align: center;
     }
-    .cajaLogoPresentacion img{
-        width: 50%;
+}
+@media(max-width:600px){
+    .cajaServicio{
+        width: 150px;
+        height: 200px;
+    }
+    .iconoServicio{
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        margin-bottom: 12px;
+    }
+    .textoServicio{
+        font-size: 16px;
+    }
+    .logoNosotrosIndex{
+        width: 100%;
+    }
+    .textosNosotrosIndex{
+        width: 95%;
+    }
+    .cajaImagenaAumentar{
+        width: 350px;
+    }
+}
+@media(max-width:400px){
+    .cajaPadreExperiencia {
+        margin: 50px auto;
+        width: 100%;
+    }
+    .cajaServicio{
+        width: 90%;
+        padding: 25px 25px;
+    }
+    .iconoServicio{
+        width: 100px;
+        height: 100px;
+        font-size: 50px;
+    }
+    .somosIndex{
+        font-size: 30px;
+    }
+    .tituloDistintos{
+        font-size: 30px;
+    }
+}
+@media(max-width:450px){
+    .cajaPadreExperiencia {
+        margin: 50px auto;
+        width: 100%;
+    }
+    .textoDistintos{
+        text-align: justify;
+    }
+    .cajaTrofeo{
+        height: 400px;
+    }
+    .cajaTrofeo i{
+        font-size: 135px;
+    }
+    .numeroAños{
+        font-size: 65px;
+    }
+    .textoAños{
+        font-size: 30px;
+    }
+    .somosIndex{
+        font-size: 30px;
+    }
+    .comercializadoraIndex{
+        font-size: 22px;
+    }
+    .tituloDistintos{
+        font-size: 30px;
     }
 }
