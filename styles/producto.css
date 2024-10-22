@@ -38,6 +38,7 @@
   height: 400px;
   filter: grayscale(100%);
   transition: .3s ease-in-out;
+  object-fit: cover; /* no deforma la imagen ni se sale de la caja */
 }
 .cajaImagenesModelos a:hover img{
   filter: grayscale(0%);
