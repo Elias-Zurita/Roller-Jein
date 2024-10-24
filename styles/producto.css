@@ -16,7 +16,7 @@
   color: var(--color-primario);
   text-shadow: -1px 4px 3px black;
   
-  padding-top: 5%;
+  margin-top: 65px;
 }
 .cajaImagenesModelos{
   display: flex;
@@ -60,7 +60,7 @@
   display: none;
 }
 .detalleProducto{
-  padding: 30px 200px;
+  padding: 30px 0px;
   text-align: justify;
   border: 1px solid black;
   width: 100%;
@@ -69,6 +69,10 @@
   color: white;
   margin: 45px auto 30px auto;
   background-color: #212529;
+}
+.textoDetalleProducto{
+  margin:0 auto;
+  width: 80%;
 }
 .seccionServicios{
   background: url(../img/fondoPiedraGris.jpg);
@@ -132,4 +136,9 @@
     background: #212529;
     box-shadow: 0 0 30px #CCCCCC;
     transform: translateY(-10px); 
+}
+@media(max-width:480px){
+  .textoDetalleProducto{
+    width: 90%;
+  }
 }
