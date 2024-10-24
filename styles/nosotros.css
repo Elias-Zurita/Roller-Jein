@@ -68,11 +68,12 @@
     transform: scale(1.2);
 }
 .cajaPresentacionSG{
-    width: 1200px;
-    margin: 80px auto 80px auto;
+    width: 100%;
+    margin: 0px auto 80px auto;
     display: flex;
-    color: #4A4A4A;
-    justify-content: space-between;
+    color: white;
+    background-color:#212529;
+    justify-content: center;
 }
 .cajaLogoPresentacion{
     display: flex;
@@ -85,7 +86,6 @@
     height: 400px;
 }
 .textoPresentacion{
-    color: black;
     padding: 3% 2% 1% 2%;
     width: 650px;
     text-align: justify;
@@ -192,7 +192,7 @@
 
 @media(max-width: 1300px){
     .cajaPresentacionSG{
-        width: 90%;
+        width: 100%;
         flex-direction: column;
         align-items: center;
     }
@@ -201,6 +201,7 @@
     }
     .cajaLogoPresentacion img{
         width: 100%;
+        height: 100%;
         object-fit: cover; /* se come la caja la imagen pero no la deforma */
     }
     .textoPresentacion{
