@@ -35,7 +35,7 @@
     font-weight: bold;
 }
 .redesFooter:hover i{
-    color: black;
+    color: black!important;
 }
 .btn {
     display: inline-block;

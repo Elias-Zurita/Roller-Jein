@@ -131,7 +131,7 @@
         box-shadow: none;
     }
     .offcanvas.offcanvas-end {   /* menu lateral que aparece */
-        top: 50.5px;
+        top: 58.5px;
         transition: 0.5s;
         background: black;
         font-size: 20px;
@@ -202,6 +202,11 @@
         flex-direction: column;
         justify-content: space-between;
         height: 100%;
+    }
+    .redesHeaderResponsive{
+        color: white;
+        padding: 0.5rem 0;
+        font-weight: normal;
     }
 }
 
