@@ -386,8 +386,3 @@ h1{
     align-items: flex-start;
   }
 }
-@media (max-width:420px){
-  .tachado::before{
-     top: 22%
-  }
-}
