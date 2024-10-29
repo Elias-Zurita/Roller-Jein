@@ -106,6 +106,12 @@
   animation: none;
 }
 
+.subrayado .dropdown-menu {
+    list-style-type: none; /* Elimina las viñetas */
+    padding: 0; /* Elimina el espacio del padding */
+    margin: 0; /* Elimina el margen */
+}
+
 @media (max-width:800px){ 
     .seccionesHeader{
         display: none;
