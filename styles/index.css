@@ -246,6 +246,9 @@ h1{
   flex-direction: column;
   width: 100%;
 }
+.columnaSelectFormulario option{
+  background-color: white
+}
 .columnaCotiza input, select{
   border-radius: 5px;
   border: none;

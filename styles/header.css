@@ -111,7 +111,9 @@
     padding: 0; /* Elimina el espacio del padding */
     margin: 0; /* Elimina el margen */
 }
-
+.dropdown-menu a:hover{
+    background-color: var(--color-primario);
+}
 @media (max-width:800px){ 
     .seccionesHeader{
         display: none;
