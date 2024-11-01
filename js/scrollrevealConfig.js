@@ -126,15 +126,7 @@ sr.reveal(".cajaTrofeo", {
   reset: false,
   mobile: false,
 });
-sr.reveal(".cajaTrofeo", {
-  // mobile
-  duration: 3000,
-  origin: "left",
-  distance: "-20%",
-  reset: false,
-  mobile: true,
-  desktop: false,
-});
+
 
 // Detalle del producto
 sr.reveal(".detalleProducto", {
