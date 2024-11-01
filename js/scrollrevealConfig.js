@@ -76,14 +76,6 @@ sr.reveal(".seccionServicios", {
   mobile: false,
   reset: false,
 });
-sr.reveal(".seccionServicios", {
-  // mobile
-  delay: 0,
-  desktop: false,
-  reset: false,
-  mobile: true,
-  desktop: false,
-});
 
 // VIRTUDES
 sr.reveal(".virtudesAgencia", {
