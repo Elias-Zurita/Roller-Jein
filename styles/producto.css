@@ -7,11 +7,16 @@
   align-items: center;
   justify-content: center;
   color: white;
+  text-shadow: 
+    -2px -2px 0 #000,  
+     2px -2px 0 #000,  
+    -2px  2px 0 #000,  
+     2px  2px 0 #000; /* Contorno negro */
   font-size:50px;
   font-family: "Poppins";
   font-weight: bold;
   text-align: center;
-  padding-top:30px
+  padding-top:30px;
 }
 
 .presentacionProductos{
