@@ -176,7 +176,7 @@ h1{
   padding: 50px 30px;
   font-size: 18px;
   color: white;
-  background-color: #212529;
+  background-color: #797876; /* #212529;*/
   text-align: justify;
 }
 
@@ -293,7 +293,7 @@ h1{
   border-radius: 5px;
   display: flex;
   flex-direction: column;
-  margin: 30px;
+  margin: 10px;
   text-align: center;
   transition: .3s ease-in-out;
   cursor: pointer; /* mouse en modo hipervinculo */
@@ -380,7 +380,7 @@ h1{
     flex-direction: column;
   }
   .productoHome{
-    margin: 30px 0px;
+    margin: 15px 0px;
   }
   .columnaFormulario{
     width: 100%;
