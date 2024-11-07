@@ -1,5 +1,5 @@
 .bannerProducto{
-  background-image:url(../img/rollerBlackout/WhatsApp\ Image\ 2024-10-22\ at\ 10.54.33.jpeg);
+  background-image:url(../img/rollerBlackout/WhatsApp\ Image\ 2024-10-22\ at\ 10.54.32.jpeg);
   background-position: center;
   background-size: cover;
   height: 85vh;
@@ -89,7 +89,6 @@
   font-family: "Poppins";
   font-size: 18px;
   color: white;
-  margin: 0px auto 30px auto;
   background-color: #797876; /* #212529;*/
 }
 .textoDetalleProducto{
