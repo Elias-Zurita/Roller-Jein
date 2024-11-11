@@ -4,14 +4,16 @@
   background-size: cover;
   height: 85vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+  align-items: flex-end;
+  justify-content: left;
+  padding-left:30px;
+  padding-bottom: 30px;
+  color: black;
   text-shadow: 
-    -2px -2px 0 #000,  
-     2px -2px 0 #000,  
-    -2px  2px 0 #000,  
-     2px  2px 0 #000; /* Contorno negro */
+    -2px -2px 0 #229799,  
+     2px -2px 0 #229799,  
+    -2px  2px 0 #229799,  
+     2px  2px 0 #229799; /* Contorno negro */
   font-size:50px;
   font-family: "Poppins";
   font-weight: bold;
@@ -89,7 +91,7 @@
   font-family: "Poppins";
   font-size: 18px;
   color: white;
-  background-color: #797876; /* #212529;*/
+  background-color: black/* #797876; /* #212529;*/
 }
 .textoDetalleProducto{
   margin:0 auto;

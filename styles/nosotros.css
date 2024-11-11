@@ -72,7 +72,7 @@
     margin: 0px auto 80px auto;
     display: flex;
     color: white;
-    background-color: #797876; /*#212529;*/
+    background-color: black;  /* #797876; /*#212529;*/
     justify-content: center;
 }
 .cajaLogoPresentacion{

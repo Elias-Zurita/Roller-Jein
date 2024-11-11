@@ -15,9 +15,9 @@ a{
     text-decoration: none;
 }
 :root{
-    --color-primario: #005dff99
-    
+    --color-primario: #229799
     /*
+    celeste: #005dff99
     verde:  rgb(57, 174, 86)/*
     cremita:  #EBBA4D
     
@@ -176,7 +176,7 @@ h1{
   padding: 50px 30px;
   font-size: 18px;
   color: white;
-  background-color: #797876; /* #212529;*/
+  background-color: black ; /* #797876; /* #212529;*/
   text-align: justify;
 }
 
