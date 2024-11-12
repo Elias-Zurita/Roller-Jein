@@ -165,6 +165,9 @@
     width: 90%;
   }
   .bannerProducto{
-    font-size:40px;
+    font-size:38px;
+  }
+  .bannerProducto{
+    padding-left:0px;
   }
 }
