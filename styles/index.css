@@ -89,7 +89,7 @@ h1{
   padding-left:0%  /* centra la caja de textos dentro del carousel */
 }
 .textosCarousel{
-  background: rgba(42, 49, 48, 0.8);
+/*  background: rgba(42, 49, 48, 0.8);*/
   height: 200px;
   display: flex;
   flex-direction: column;
