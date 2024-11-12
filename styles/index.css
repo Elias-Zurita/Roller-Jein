@@ -254,7 +254,7 @@ h1{
 .columnaSelectFormulario option{
   background-color: white
 }
-.columnaCotiza input, select{
+.columnaCotiza input, select, textarea{
   border-radius: 5px;
   border: none;
   padding:9px;
@@ -262,7 +262,7 @@ h1{
   color:black;
   font-weight: bold;
 }
-.columnaCotiza input:hover, select:hover{
+.columnaCotiza input:hover, select:hover, textarea:hover{
   background-color:#212529;
 }
 .columnaCotiza button{

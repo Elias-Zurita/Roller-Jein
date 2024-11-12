@@ -271,8 +271,8 @@
             </div>
             <div class="columnaCotiza">
                 <form action="https://api.web3forms.com/submit" method="post">
-                    <input type="hidden" name="access_key" value=""> <!-- el value es la key que me envio por mail la pagina, eso vincula los msj a mi casilla de gmail -->
-                    <input type="hidden" name="redirect" value="https://roller-jein.vercel.app/">
+                    <input type="hidden" name="access_key" value="bec53644-e9b4-4ca1-ac8f-5d2c7c98af13"> <!-- el value es la key que me envio por mail la pagina, eso vincula los msj a la casilla de gmail -->
+                    <!-- <input type="hidden" name="redirect" value="https://roller-jein.vercel.app/?status=success"> -->
                     <input type="hidden" name="from_name" value="Solicitud cotizacion sitio web"> <!-- Asunto del mail -->
                     <div class="filaFormulario">
                         <div class="columnaFormulario">
@@ -296,8 +296,8 @@
                     </div>
                     <div class="filaFormulario">
                         <div class="columnaSelectFormulario">
-                            <label>Tipo de Cortina</label>
-                            <select name="" id="">
+                            <label>Tipo de Cortina:</label>
+                            <select name="tipo_cortina" id="">
                                 <option value="Blackout">Roller Blackout</option>
                                 <option value="Sunscreen">Roller Sunscreen 5%</option>
                                 <option value="Dual">Sistemas Dobles: Blackout + Sunscreen 5%</option>
@@ -311,12 +311,39 @@
                         <div class="columnaFormulario" style="width: 100%;">
                             <label>Email</label>
                             <input type="email" placeholder="Email" name="email" minlength="2" required>
+                            <label>Mensaje</label>
+                            <textarea name="mensaje" cols="30" rows="5" placeholder="Escribe aquí cualquier detalle adicional sobre la cortina que necesitas"></textarea>
                         </div>
                     </div>
                     <button type="submit" style="width: 99%;">Cotizar <i class="fa-solid fa-paper-plane"></i>
                         <span class="relleno"></span>
                     </button> 
                 </form>
+                <div id="confirmationMessage" style="display: none; color: green; font-weight: bold;">
+                    ¡Mensaje enviado correctamente!
+                </div>
+
+                <script>
+                    document.getElementById("contactForm").addEventListener("submit", function(event) {
+                        event.preventDefault(); // Prevenir el envío estándar
+                        
+                        const form = event.target;
+                        fetch(form.action, {
+                            method: form.method,
+                            body: new FormData(form),
+                        })
+                        .then(response => response.json())
+                        .then(result => {
+                            if (result.success) {
+                                document.getElementById("confirmationMessage").style.display = "block";
+                                form.reset(); // Opcional: Resetea el formulario
+                            } else {
+                                alert("Hubo un error al enviar el mensaje.");
+                            }
+                        })
+                        .catch(error => console.error("Error:", error));
+                    });
+                </script>
             </div>
         </div>
 
