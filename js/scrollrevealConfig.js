@@ -52,7 +52,7 @@ sr.reveal(".seccionCotiza", {
 });
 
 // PRODUCTOS HOME
-sr.reveal(".seccionProductosHome", {
+/*sr.reveal(".seccionProductosHome", {
   duration: 3000,
   scale: 1.1,
   reset: false,
@@ -66,7 +66,7 @@ sr.reveal(".seccionProductosHome", {
   mobile: true,
   desktop: false,
 });
-
+*/
 // SERVICIOS
 sr.reveal(".seccionServicios", {
   delay: 200,
