@@ -85,7 +85,7 @@ h1{
   top: 29%; /* posiciona al medio de la imagen los textos */
   margin-left: auto;
   margin-right: auto;
-  text-align: start; /* alinea a la izquierda el texto */
+  
   padding-left:0%  /* centra la caja de textos dentro del carousel */
 }
 .textosCarousel{
